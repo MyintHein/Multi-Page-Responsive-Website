@@ -1,0 +1,165 @@
+<html lang="en">
+  <head>
+    <script src="jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+    <style media="screen">
+      body{
+        background-image: url("icons/bg.png");
+        background-size: cover;
+      }
+      img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+      }
+      h1{
+        text-align: center;
+        font-family: cursive;
+        color: #0099ff;
+      }
+      h4{
+      border-bottom: 1px solid black;
+      box-shadow: 0 1px 0 black;
+      font-family: monospace;
+    }
+      p, li{
+        font-family: 'Revalia', cursive;
+        color: brown;
+        font-size: 10;
+      }
+      .size{
+        width: 20px;
+        height: 20px;
+      }
+      .download{
+        margin-top: 25px;
+      }
+      .download2{
+        margin-top: 60px;
+      }
+        #fb:hover, #insta:hover, #lin:hover, #ph:hover, #email:hover{
+            transform: rotate(40deg);
+        }
+    
+    </style>
+  </head>
+
+  <body>
+
+    <h1>------------ About Me!! </span>------------</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3"><img  id="radius" src="henry.png" alt=""></div>
+
+        <div class="col-sm-9">
+
+        <h4>Hi, My name is Myint Myat Hein</h4>
+        <p>I'm a NYIT student studying Computer Science as my major and currently living in New York. I like to make cool and creative designs, regardless of what medium I am working in.</p>
+
+        <h4>Facts About Me</h4>
+        <p>
+          <li>Call me Henry if you are having trouble pronouncing my actual name.</li>
+          <li>I am a mixture of Chinese and Burmese, although I am a citizen of Myanmar.</li>
+          <li>Aside from coding, my other hobbies are playing chess, badminton and dota 2. </li>
+          <li>I love to watch romantic and anime movie. Romantic anime movies are the best for me!!</li>
+          <li>I have been told that I am a joker, making everyone laugh at me :) </li>
+          <li>My love for meat will never allow me to become a vegetarian, NEVER!!</li>
+          <li>I love taking pictures wherever I go, because keeping memories in pictures is one of my favourite things!</li>
+        </p>
+
+          </div>
+            </div>
+            </div>
+
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">       </div>
+        <div class="col-sm-4"><h4>Skill Set</h4></div>
+        <div class="col-sm-4"><h4>Become my BFF</h4></div>
+      </div>
+    </div>
+
+    <div class="container con">
+      <div class="row">
+
+
+        <div class="col-sm-3 download2"> <a href="file:///Applications/Brackets.app/Contents/samples/root/Getting%20Started/Complete%20Web%20Developer%20Course/5-bootstrap/Henry.html#"><img class="size" src="icons/home.png" alt=""> </a></div>
+
+
+        <div class="col-sm-4">
+            <button type="button" class="btn-outline-success" name="button">Java</button>
+            <button type="button" class="btn-outline-success" name="button">C</button>
+            <button type="button" class="btn-outline-success" name="button">Python</button>
+            <button type="button" class="btn-outline-success" name="button">PHP</button>
+            <button type="button" class="btn-outline-success" name="button">MySQL</button>
+            <button type="button" class="btn-outline-success" name="button">HTML 5</button>
+            <button type="button" class="btn-outline-success" name="button">CSS 3</button>
+            <button type="button" class="btn-outline-success" name="button">JS</button>
+            <button type="button" class="btn-outline-success" name="button">JQuery</button>
+            <button type="button" class="btn-outline-success" name="button">Bootstrap 4</button>
+            <button type="button" class="btn-outline-success" name="button">AutoCAD</button>
+            <button type="button" class="btn-outline-success" name="button">Photoshop</button>
+            <button type="button" class="btn-outline-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" name="button">Microsoft Office</button>
+              <div class="dropdown-menu">
+                <p>Microsoft Word</p>
+                <p>Microsoft PowerPoint</p>
+                <p>Microsoft Excel</p>
+                <p>Microsofte SmallBasic</p>
+              </div>
+        </div>
+
+
+
+        <div class="col-sm-4">
+            <div class="row">
+              <div class="col-sm-1 " id="fb"><img class="size" src="icons/facebook.png" alt=""></div>
+              <div class="col-sm-1 " id="insta"><img class="size" src="icons/instagram.png" alt=""></div>
+              <div class="col-sm-1 " id="lin"><img class="size" src="icons/linkedin.png" alt=""></div>
+              <div class="col-sm-1 " id="ph"><img class="size" src="icons/phone.png" alt=""></div>
+              <div class="col-sm-1 " id="email"><img class="size" src="icons/email.png" alt=""></div>
+            </div>
+            <h4 class="download"> Go to my resume -> <a href="file:///Applications/Brackets.app/Contents/samples/root/Getting%20Started/Complete%20Web%20Developer%20Course/1-html/Resume.html"><img src="icons/document.png" class="size"></a></h4>
+
+        </div>
+      </div>
+    </div>
+
+
+<script type="text/javascript">
+    document.getElementById("fb").onclick = function(){
+      alert("My FB username : Henry Hein");}
+    document.getElementById("insta").onclick = function(){
+      alert("My Instagram username : Henry Hein");}
+    document.getElementById("lin").onclick = function(){
+      alert("My LinkedIn username : Myint Hein");}
+    document.getElementById("ph").onclick = function(){
+      alert("My Phone no : 9293122005");}
+    document.getElementById("email").onclick = function(){
+      alert("My email username : mm.hein96@gmail.com \nMy NYIT username : mhein@nyit.edu");}
+
+
+      $("#radius").click(function(){
+          $("#radius").css("border-radius", "50%");
+          })
+</script>
+
+
+
+
+
+  </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+</html>
