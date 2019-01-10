@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Henry's Resume</title>
+    <link rel="stylesheet" href="Resume.css">
+  </head>
+
+  <style media="screen">
+    body{
+      background-image: url("bg.png");
+      background-size: cover;
+    }
+    .size{
+      width: 20px;
+      height: 20px;
+    }
+
+  </style>
+  <body>
+    <div class="container">
+
+
+    <h1>Myint Myat Hein
+      <a href="file:///Applications/Brackets.app/Contents/samples/root/Getting%20Started/Complete%20Web%20Developer%20Course/5-bootstrap/Henry.html"><img class="size" src="home.png" alt=""> </a>
+      <a href="file:///Applications/Brackets.app/Contents/samples/root/Getting%20Started/Complete%20Web%20Developer%20Course/5-bootstrap/aboutme.html"><img class="size" src="aboutme.png" alt=""> </a>
+    </h1>
+    <p class="ti"><a href="mhein@nyit.edu">mhein@nyit.edu </a>| 929-312-2005 | Astoria, NY |</p>
+
+
+
+    <h3 class="header">Education</h3>
+    <h3>New York Institute of Technology, New York, NY <span class="right">(Exp. Graduation: May 2019)</span></h3>
+
+
+    <p>Bachelor of Science in Computer Science, Concentration in Big Data Management and Analytics</p>
+
+
+
+
+
+    <h3 class="header">Skills</h3>
+    <p>
+      <ul>
+        <li>Front End Web development: HTML, CSS, JavaScript, jQuery, Bootstrap4, Wordpress; Programming Languages: Java, C, JavaScript, Python; Other languages/libraries: Small Basic; Technologies: MySQL, Photoshop, AutoCAD, GIT; Microsoft Office: Word, PowerPoint, Excel; Windows/Mac OS</li>
+        <li>Languages - English, Burmese</li>
+      </ul>
+    </p>
+
+
+
+
+
+
+    <h3 class="header">Technical Projects</h3>
+    <h3>Library System Database Application, Database Management Systems, NYIT, New York, NY <span class="right">(Spring 2018)</span></h3>
+    <p>
+      <ul>
+        <li>Developed a database application that maintains a library database, and allows the user to search it</li>
+        <li>Created an ER diagram representing the database for a library and efficiently used SQL to create and manipulate data accordingly</li>
+      </ul>
+    </p>
+
+    <h3>Web Developer Project, Code Player, New York, NY<span class="right">(Spring 2018)</span></h3>
+    <p>
+      <ul>
+        <li>Created a website that shows user to learn front end technologies such as HTML5,CSS3, Javascript panels, which
+appear and disappear as you click on them</li>
+        </ul>
+      </ul>
+    </p>
+
+    <h3>Web Developer Project, Multi-Page Responsive Website, New York, NY<span class="right">(Spring 2018)</span></h3>
+    <p>
+      <ul>
+        <li>Created own portfolio webpages using HTML5/CSS3/JS, jQuery and Bootstrap4</li>
+        <li>Linked with my resume, about me and my profile webpages</li>
+        </ul>
+      </ul>
+    </p>
+
+    <h3>CPU Scheduling Project, Operating Systems, NYIT, New York, NY <span class="right">(Spring 2017)</span></h3>
+    <p>
+      <ul>
+          <li>Implemented the Round Robin algorithm to demonstrate CPU utilization, throughput, average waiting time, and average turnaround time</li>
+          <li>Learned to keep track of context-switch time and the mechanisms used for each queue to determine when and which queue a process should enter</li>
+      </ul>
+    </p>
+
+
+
+
+
+    <h3 class="header">Work Experience</h3>
+
+    <h3>Webline Designs, Queens Plaza North, Long Island, New York<span class="right">(September 2018 - Present)</span></h3>
+    <p>
+      <ul>
+        <li>Illustrated responsive websites using Elemento plugin from WordPress</li>
+        <li>Updated websites to be compatible with desktop/phone/tablet</li>
+        <li>Designed websites from scratch, fixed URL pages preventing from scam and troubleshot errors by using
+WordPress: HTML & CSS</li>
+      </ul>
+    </p>
+
+    <h3>Technical Support, New York Institute of Technology, New York, NY <span class="right">(October 2016 - Present)</span></h3>
+    <p>
+      <ul>
+        <li>Set up and maintaining long distance learning classrooms</li>
+        <li>Manage the plot shop which includes maintain and operating plotters and printing plots for the architecture students</li>
+        <li>Maintain inventory and ordering supplies for the plot shop</li>
+        <li>Provide IT Support for Hardware and connectivity issues, and installing software on computers for the academic labs</li>
+      </ul>
+    </p>
+
+    <h3>International Language and Business Center, Yangon, Myanmar <span class="right">(January 2014 - March 2014)</span></h3>
+    <p>
+      <ul>
+        <li>Taught and mentored high school students in Calculus 1</li>
+        <li>Prepared students for their examinations</li>
+      </ul>
+    </p>
+
+
+
+
+
+    <h3 class="header">Extracurricular Activities</h3>
+    <h3>Harlem Congregations for Community Improvement, Harlem, New York <span class="right">(Fall 2017)</span><br/>
+    Hands That Make a Difference, STEM after School Consultant, Harlem, New York <span class="right">(Spring 2017)</span></h3>
+    <p>
+      <ul>
+        <li>Provided academic support to children base on STEM program. (STEM = Science, Technology, Engineering & Math)</li>
+        <li>Helped children stay healthy by playing “fun with fitness” games with them.</li>
+      </ul>
+    </p>
+
+    <h3>National Society of Leadership and Success, NYIT, New York, NY <span class="right">(September 2015 - March 2015)</span></h3>
+    <p>
+      <ul>
+        <li>Inducted into National Honors Society</li>
+      </ul>
+    </p>
+
+    <h3>Shwe Gone Daing Orphanage, Yangon, Myanmar <span class="right">(February 2014 - February 2015)</span></h3>
+    <p>
+      <ul>
+        <li>Spent a year volunteering at an orphanage in Myanmar</li>
+        <li>Took care of orphaned babies and children by feeding them, playing with them, and teaching them.</li>
+      </ul>
+    </p>
+
+
+  </div>
+  </body>
+</html>
